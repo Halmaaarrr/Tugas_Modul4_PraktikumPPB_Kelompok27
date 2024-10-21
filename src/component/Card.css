@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+  
+  .card-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .card-info {
+    flex: 1;
+  }
+  
+  .card-info h3 {
+    color: white;
+    margin: 0 0 8px;
+  }
+  
+  .card-info p {
+    color: salmon;
+    margin: 0 0 8px;
+  }
+  
+  .card-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .card-info a:hover {
+    text-decoration: underline;
+  }
+  
